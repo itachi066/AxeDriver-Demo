@@ -1,0 +1,48 @@
+{
+  "environments": {
+    "localhost": "http://localhost:4200",
+    "test": "https://test.sync1services.com",
+    "demo": "https://demo.sync1services.com",
+    "dev": "https://dev.sync1services.com"
+  },
+  "users": {
+    "emailLoanProcessor": "loan.processor@cua.com",
+    "emailLoanOfficer": "loan.officer@cua.com",
+    "emailSuperVisor": "super.visor@cua.com"
+  },
+  "password": {
+    "default": "testPassword"
+  },
+  "seleniumAddress": "http://localhost:4444/wd/hub",
+  "multiCapabilities": {
+    "allBrowsers": [
+      {
+        "browserName": "firefox",
+        "version": "ANY"
+      },
+      {
+        "browserName": "chrome",
+        "version": "ANY"
+      },
+      {
+        "browserName": "MicrosoftEdge",
+        "version": "ANY"
+      }
+    ],
+    "firefox": [{
+      "browserName": "firefox",
+      "version": "ANY"
+    }],
+    "chrome": [{
+      "browserName": "chrome",
+      "version": "ANY"
+    }],
+    "edge": [{
+      "browserName": "MicrosoftEdge",
+      "version": "ANY"
+    }]
+  },
+  "suites": {
+    "Accessibility": { "suite": "./e2e/tests/accessibility-tests/accessibility.e2e-spec.ts" }
+  }
+}
