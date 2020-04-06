@@ -153,7 +153,7 @@
     "karma-junit-reporter": "1.2.0",
     "karma-phantomjs-launcher": "1.0.4",
     "karma-simple-reporter": "2.0.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.3",
     "ngrx-store-freeze": "^0.2.4",
     "ngrx-store-logger": "^0.2.2",
     "phantomjs-prebuilt": "^2.1.14",
