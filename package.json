@@ -97,7 +97,7 @@
     "ngx-bowser": "0.1.0",
     "ngx-moment": "^3.3.0",
     "ngx-toastr": "^9.1.1",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "ramda": "^0.25.0",
     "rxjs": "6.2.2",
     "rxjs-compat": "6.2.2",
