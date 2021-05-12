@@ -89,7 +89,7 @@
     "jquery": "3.4.1",
     "karma-webpack": "^4.0.2",
     "lodash": "^4.17.11",
-    "mathjs": "^5.0.3",
+    "mathjs": "^7.5.1",
     "moment": "^2.19.3",
     "moment-range": "3.0.3",
     "ng2-validation": "4.2.0",
